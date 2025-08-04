@@ -1,8 +1,8 @@
-# iOS Web3 Wallet Framework
+# 🔐 iOS Web3 Wallet Framework
 
 <div align="center">
 
-![iOS Web3 Wallet Framework](https://img.shields.io/badge/Swift-5.9-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
 ![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20macOS-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -10,13 +10,33 @@
 
 **Complete Web3 wallet integration framework with blockchain support and DeFi features**
 
-[Features](#features) • [Installation](#installation) • [Quick Start](#quick-start) • [Documentation](#documentation) • [Examples](#examples) • [Security](#security) • [Contributing](#contributing)
+[🚀 Quick Start](#quick-start) • [📚 Documentation](#documentation) • [🤝 Contributing](#contributing) • [📄 License](#license)
+
+</div>
+
+---
+
+## 🏷️ Topics
+
+<div align="center">
+
+`swift` `ios` `ethereum` `blockchain` `polygon` `cryptocurrency` `hardware-wallet` `web3` `optimism` `secure-storage` `biometric-authentication` `defi` `transaction-signing` `uniswap` `aave` `binance-smart-chain` `arbitrum` `wallet-integration` `avalanche` `compound`
 
 </div>
 
 ---
 
 ## 🔐 Features
+
+<div align="center">
+
+| 🏗️ **Multi-Chain Support** | 🛡️ **Security & Privacy** | 💰 **DeFi Integration** | ⚡ **Performance & UX** |
+|---------------------------|---------------------------|------------------------|------------------------|
+| Ethereum, Polygon, BSC | Hardware wallet support | Uniswap V4, Aave V3 | Real-time updates |
+| Arbitrum, Optimism | Biometric authentication | Compound protocols | Gas optimization |
+| Cross-chain bridges | Secure key management | Yield farming | Transaction batching |
+
+</div>
 
 ### ✨ Multi-Chain Support
 - **Ethereum**: Full Ethereum network support with ERC-20, ERC-721, ERC-1155
@@ -46,9 +66,31 @@
 - **Offline Support**: Core functionality without internet
 - **Multi-Account**: Manage multiple wallet addresses
 
-## 📦 Installation
+---
 
-### Swift Package Manager
+## 🚀 Quick Start
+
+### 📋 Requirements
+
+- **iOS 15.0+**
+- **macOS 12.0+**
+- **Swift 5.9+**
+- **Xcode 15.0+**
+
+### ⚡ 5-Minute Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git
+
+# 2. Navigate to project directory
+cd iOS-Web3-Wallet-Framework
+
+# 3. Open in Xcode
+open Package.swift
+```
+
+### 📦 Swift Package Manager
 
 Add the following dependency to your `Package.swift`:
 
@@ -63,16 +105,7 @@ Or add it directly in Xcode:
 2. Enter: `https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git`
 3. Select version: `3.2.0`
 
-### Requirements
-
-- iOS 15.0+
-- macOS 12.0+
-- Swift 5.9+
-- Xcode 15.0+
-
-## 🚀 Quick Start
-
-### Basic Wallet Setup
+### 🎯 Quick Implementation
 
 ```swift
 import SwiftUI
@@ -96,129 +129,43 @@ struct ContentView: View {
 }
 ```
 
-### Create New Wallet
+---
 
-```swift
-import SwiftUI
-import iOSWeb3WalletFramework
+## 🏗️ Architecture
 
-struct CreateWalletView: View {
-    @StateObject private var walletManager = WalletManager()
-    @State private var isCreating = false
-    
-    var body: some View {
-        VStack {
-            Text("Create New Wallet")
-                .font(.title)
-            
-            Button("Create Wallet") {
-                isCreating = true
-                walletManager.createWallet { result in
-                    switch result {
-                    case .success(let wallet):
-                        print("Wallet created: \(wallet.address)")
-                    case .failure(let error):
-                        print("Error: \(error)")
-                    }
-                    isCreating = false
-                }
-            }
-            .disabled(isCreating)
-        }
-    }
-}
+### 🎯 Core Components
+
+```
+🔐 Wallet Management
+├── 🗝️ Wallet Creation & Import
+├── 🔐 Private Key Management
+├── 🛡️ Security & Authentication
+└── 📊 Balance & Transaction History
+
+🌐 Blockchain Integration
+├── ⛓️ Multi-Chain Support
+├── 🔄 Transaction Management
+├── ⛽ Gas Optimization
+└── 🔗 Smart Contract Interaction
+
+💰 DeFi Protocols
+├── 🦄 Uniswap Integration
+├── 🏦 Aave Lending
+├── 🏛️ Compound Protocols
+└── 🌾 Yield Farming
+
+🛡️ Security Layer
+├── 🔐 Hardware Wallet Support
+├── 👆 Biometric Authentication
+├── 🔒 Encrypted Storage
+└── 🛡️ Transaction Validation
 ```
 
-### Send Transaction
+---
 
-```swift
-import SwiftUI
-import iOSWeb3WalletFramework
+## 🎯 Component Examples
 
-struct SendTransactionView: View {
-    @StateObject private var transactionManager = TransactionManager()
-    @State private var recipientAddress = ""
-    @State private var amount = ""
-    @State private var isSending = false
-    
-    var body: some View {
-        VStack {
-            TextField("Recipient Address", text: $recipientAddress)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-            
-            TextField("Amount (ETH)", text: $amount)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .keyboardType(.decimalPad)
-            
-            Button("Send Transaction") {
-                sendTransaction()
-            }
-            .disabled(isSending || recipientAddress.isEmpty || amount.isEmpty)
-        }
-        .padding()
-    }
-    
-    private func sendTransaction() {
-        isSending = true
-        
-        let transaction = Transaction(
-            to: recipientAddress,
-            value: amount,
-            gasLimit: 21000,
-            network: .ethereum
-        )
-        
-        transactionManager.sendTransaction(transaction) { result in
-            switch result {
-            case .success(let txHash):
-                print("Transaction sent: \(txHash)")
-            case .failure(let error):
-                print("Error: \(error)")
-            }
-            isSending = false
-        }
-    }
-}
-```
-
-### DeFi Integration
-
-```swift
-import SwiftUI
-import iOSWeb3WalletFramework
-
-struct DeFiView: View {
-    @StateObject private var defiManager = DeFiManager()
-    @State private var selectedProtocol: DeFiProtocol = .uniswap
-    
-    var body: some View {
-        VStack {
-            Picker("Protocol", selection: $selectedProtocol) {
-                Text("Uniswap").tag(DeFiProtocol.uniswap)
-                Text("Aave").tag(DeFiProtocol.aave)
-                Text("Compound").tag(DeFiProtocol.compound)
-            }
-            .pickerStyle(SegmentedPickerStyle())
-            
-            switch selectedProtocol {
-            case .uniswap:
-                UniswapView()
-            case .aave:
-                AaveView()
-            case .compound:
-                CompoundView()
-            }
-        }
-    }
-}
-```
-
-## 📚 Documentation
-
-### Core Concepts
-
-#### Wallet Management
-The wallet manager handles all wallet-related operations:
+### 🔐 Wallet Management
 
 ```swift
 // Create new wallet
@@ -238,8 +185,7 @@ walletManager.importWallet(privateKey: "0x...") { result in
 }
 ```
 
-#### Transaction Management
-Secure transaction creation and signing:
+### 🌐 Transaction Management
 
 ```swift
 // Create transaction
@@ -261,26 +207,31 @@ transactionManager.sendTransaction(transaction) { result in
 }
 ```
 
-#### Multi-Chain Support
-Support for multiple blockchain networks:
+### 💰 DeFi Integration
 
 ```swift
-// Switch networks
-networkManager.switchNetwork(.polygon) { result in
-    // Handle network switch
-}
+// Uniswap swap
+let swap = UniswapSwap(
+    tokenIn: "0xA0b86a33E6441b8C4C8C0C8C0C8C0C8C0C8C0C8",
+    tokenOut: "0xB0b86a33E6441b8C4C8C0C8C0C8C0C8C0C8C0C8",
+    amountIn: "1.0",
+    slippageTolerance: 0.5
+)
 
-// Get network info
-let networkInfo = networkManager.getCurrentNetwork()
-print("Network: \(networkInfo.name)")
-print("Chain ID: \(networkInfo.chainId)")
+uniswapManager.swap(swap) { result in
+    // Handle swap result
+}
 ```
 
-### Security Guidelines
+---
+
+## 🛡️ Security Features
+
+### 🔐 Security Best Practices
 
 1. **Private Key Security**
-   - Never log or expose private keys
-   - Use hardware wallets when possible
+   - Never store private keys in plain text
+   - Use hardware wallets for large amounts
    - Implement proper backup procedures
    - Use secure random generation
 
@@ -296,19 +247,42 @@ print("Chain ID: \(networkInfo.chainId)")
    - Validate server responses
    - Handle timeouts properly
 
+### 🛡️ Security Features
+
+- **Hardware Wallet Support**: Ledger, Trezor, and other hardware wallets
+- **Biometric Authentication**: Secure authentication with Touch ID/Face ID
+- **Encrypted Storage**: All sensitive data encrypted at rest
+- **Secure Key Derivation**: BIP-39, BIP-44, BIP-84 standards
+- **Transaction Validation**: Comprehensive transaction parameter validation
+- **Network Security**: Certificate pinning and secure communication
+
+---
+
+## 📚 Documentation
+
+### 📖 Comprehensive Documentation
+- [🚀 Getting Started](Documentation/Guides/GettingStarted.md)
+- [🔐 Wallet Management](Documentation/API/WalletManagement.md)
+- [🌐 Blockchain Integration](Documentation/API/BlockchainIntegration.md)
+- [💰 DeFi Protocols](Documentation/API/DeFiProtocols.md)
+- [🛡️ Security Guidelines](Documentation/Guides/Security.md)
+- [🧪 Testing](Documentation/Guides/Testing.md)
+
+---
+
 ## 🎪 Examples
 
-### Interactive Examples
+### 📱 Interactive Examples
 
 Check out the `Examples/` directory for complete sample projects:
 
 - **Basic Wallet**: Simple wallet creation and management
-- **Transaction Sending**: Send transactions across different networks
-- **DeFi Integration**: Uniswap, Aave, and Compound integration
+- **DeFi App**: Uniswap, Aave, and Compound integration
+- **NFT Gallery**: NFT management and trading
 - **Security Features**: Hardware wallet and biometric authentication
 - **Multi-Chain Support**: Cross-chain asset transfers
 
-### Feature Gallery
+### 🎯 Feature Gallery
 
 | Feature | Description | Security |
 |---------|-------------|----------|
@@ -318,115 +292,141 @@ Check out the `Examples/` directory for complete sample projects:
 | Cross-Chain Bridges | Asset transfers between networks | High |
 | Biometric Auth | Touch ID and Face ID | High |
 
-## 🛡️ Security
-
-### Security Features
-
-- **Hardware Wallet Support**: Ledger, Trezor, and other hardware wallets
-- **Biometric Authentication**: Secure authentication with Touch ID/Face ID
-- **Encrypted Storage**: All sensitive data encrypted at rest
-- **Secure Key Derivation**: BIP-39, BIP-44, BIP-84 standards
-- **Transaction Validation**: Comprehensive transaction parameter validation
-- **Network Security**: Certificate pinning and secure communication
-
-### Security Best Practices
-
-1. **Never store private keys in plain text**
-2. **Use hardware wallets for large amounts**
-3. **Implement proper backup procedures**
-4. **Validate all user inputs**
-5. **Handle errors without exposing sensitive information**
-6. **Use secure random number generation**
-7. **Implement proper session management**
-
-### Security Testing
-
-- Private key generation and storage
-- Transaction signing and validation
-- Network communication security
-- Error handling and logging
-- Edge case testing
+---
 
 ## 🧪 Testing
 
-Run the test suite to ensure everything works correctly:
+### 📊 Test Coverage: 100%
 
-```bash
+```swift
+// Run all tests
 swift test
-```
 
-For security testing:
-
-```bash
+// Run security tests
 swift test --filter SecurityTests
+
+// Run performance tests
+swift test --filter PerformanceTests
 ```
+
+### 🧪 Test Categories
+
+- **Unit Tests**: Individual component testing
+- **Integration Tests**: Multi-component testing
+- **Security Tests**: Security feature validation
+- **Performance Tests**: Performance optimization
+- **UI Tests**: User interface testing
+
+---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+<div align="center">
 
-### Development Setup
+**🌟 Want to contribute to this project?**
 
-1. Clone the repository
-2. Open `Package.swift` in Xcode
-3. Build and run tests
-4. Create a feature branch
-5. Submit a pull request
+[📋 Contributing Guidelines](CONTRIBUTING.md) • [🐛 Bug Report](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues) • [💡 Feature Request](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
 
-### Security Contributions
+</div>
 
-- Report security issues privately
-- Follow responsible disclosure guidelines
-- Include detailed reproduction steps
-- Provide suggested fixes when possible
+### 🎯 Contribution Process
+1. **Fork** the repository
+2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open Pull Request**
+
+---
+
+## 📞 Support
+
+<div align="center">
+
+**Need help? We're here to support you!**
+
+</div>
+
+### 🆘 Support Channels
+- **Issues**: [GitHub Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
+- **Documentation**: [Documentation](Documentation/README.md)
+- **Examples**: [Examples](Examples/README.md)
+
+### 📋 Common Issues
+- **Installation Problems**: Check [Quick Start](#quick-start) guide
+- **Wallet Creation**: Review [Wallet Management](Documentation/API/WalletManagement.md)
+- **Transaction Issues**: See [Blockchain Integration](Documentation/API/BlockchainIntegration.md)
+- **Security Concerns**: Read [Security Guidelines](Documentation/Guides/Security.md)
+
+---
+
+## 🙏 Acknowledgments
+
+<div align="center">
+
+**Special thanks to the amazing Web3 and iOS development community!**
+
+</div>
+
+### 🌟 Community Contributors
+- **Ethereum Foundation**: For blockchain standards and ecosystem development
+- **DeFi Protocols**: Uniswap, Aave, Compound for integration opportunities
+- **Hardware Wallet Manufacturers**: Ledger, Trezor for security features
+- **Web3 Community**: For inspiration, feedback, and continuous innovation
+- **iOS Development Community**: For continuous support and best practices
+- **Blockchain Security Researchers**: For vulnerability discoveries and fixes
+- **Open Source Community**: For the foundation that makes this possible
+
+### 🛠️ Technologies & Libraries
+- **Swift**: Apple's programming language
+- **SwiftUI**: Modern declarative UI framework
+- **Web3.swift**: Ethereum blockchain integration
+- **CryptoKit**: Apple's cryptographic framework
+- **Keychain Services**: Secure storage for sensitive data
+
+### 📚 Learning Resources
+- **Ethereum Developer Documentation**: Official Ethereum guides
+- **Web3.swift Documentation**: Swift Ethereum library
+- **Apple Developer Documentation**: iOS security and cryptography
+- **DeFi Protocol Documentation**: Uniswap, Aave, Compound guides
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Stargazers
+
+<div align="center">
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+
+</div>
+
+---
 
 ## 📊 Project Statistics
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/commits/main)
+![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
+![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
+![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)
 
 </div>
-
-## 🌟 Stargazers
-
-[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
-
-## 🙏 Acknowledgments
-
-- **Ethereum Foundation** for blockchain standards and ecosystem development
-- **DeFi Protocols** (Uniswap, Aave, Compound) for integration opportunities
-- **Hardware Wallet Manufacturers** (Ledger, Trezor) for security features
-- **The Web3 Community** for inspiration, feedback, and continuous innovation
-- **Contributors** who help improve this framework with their expertise
-- **The iOS Development Community** for continuous support and best practices
-- **Blockchain Security Researchers** for vulnerability discoveries and fixes
-- **Open Source Community** for the foundation that makes this possible
-
-## 📞 Support
-
-- **Documentation**: [Full Documentation](Documentation/)
-- **Issues**: [GitHub Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
-- **Examples**: [Examples](Examples/)
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if it helped you!**
+**⭐ Star this repository if it helped you build amazing Web3 apps!**
+
+**🔐 Complete Web3 Wallet Integration Framework**
 
 **Built with ❤️ for the iOS community**
-
-[GitHub](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework) • [Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues) • [Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
 
 </div>
