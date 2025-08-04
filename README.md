@@ -16,6 +16,29 @@
 
 ---
 
+## 📊 Project Statistics
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
+![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
+![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)
+![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)
+![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)
+
+</div>
+
+## 🌟 Stargazers
+
+<div align="center">
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+
+</div>
+
+---
+
 ## 🔐 Features
 
 ### ✨ Multi-Chain Support
@@ -305,8 +328,8 @@ Check out the `Examples/` directory for complete sample projects:
 - **Basic Wallet**: Simple wallet creation and management
 - **Transaction Sending**: Send transactions across different networks
 - **DeFi Integration**: Uniswap, Aave, and Compound integration
-- **Security Demo**: Hardware wallet and biometric authentication
-- **Multi-Chain Demo**: Cross-chain asset transfers
+- **Security Features**: Hardware wallet and biometric authentication
+- **Multi-Chain Support**: Cross-chain asset transfers
 
 ### Feature Gallery
 
@@ -391,19 +414,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Hardware wallet manufacturers for security features
 - The Web3 community for inspiration and feedback
 - Contributors who help improve this framework
+- The iOS development community for continuous support
 
 ## 📞 Support
 
 - **Documentation**: [Full Documentation](Documentation/)
 - **Issues**: [GitHub Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
-- **Security**: security@web3wallet.com
+- **Examples**: [Examples](Examples/)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the iOS Web3 Wallet Framework Team**
+**⭐ Star this repository if it helped you!**
+
+**Built with ❤️ for the iOS community**
 
 [GitHub](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework) • [Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues) • [Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
 
