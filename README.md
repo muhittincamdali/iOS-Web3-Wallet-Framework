@@ -16,29 +16,6 @@
 
 ---
 
-## 📊 Project Statistics
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
-![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)
-![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)
-![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)
-![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)
-
-</div>
-
-## 🌟 Stargazers
-
-<div align="center">
-
-[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
-
-</div>
-
----
-
 ## 🔐 Features
 
 ### ✨ Multi-Chain Support
@@ -407,14 +384,33 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/commits/main)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+
 ## 🙏 Acknowledgments
 
-- Ethereum Foundation for blockchain standards
-- DeFi protocols for integration opportunities
-- Hardware wallet manufacturers for security features
-- The Web3 community for inspiration and feedback
-- Contributors who help improve this framework
-- The iOS development community for continuous support
+- **Ethereum Foundation** for blockchain standards and ecosystem development
+- **DeFi Protocols** (Uniswap, Aave, Compound) for integration opportunities
+- **Hardware Wallet Manufacturers** (Ledger, Trezor) for security features
+- **The Web3 Community** for inspiration, feedback, and continuous innovation
+- **Contributors** who help improve this framework with their expertise
+- **The iOS Development Community** for continuous support and best practices
+- **Blockchain Security Researchers** for vulnerability discoveries and fixes
+- **Open Source Community** for the foundation that makes this possible
 
 ## 📞 Support
 
