@@ -166,7 +166,6 @@ let maticTxHash = try await polygonWallet.sendTransaction(signedMaticTx)
 let bridge = CrossChainBridge()
 bridge.sourceChain = .ethereum
 bridge.destinationChain = .polygon
-bridge.token = "USDC"
 
 // Bridge tokens
 let bridgeTransaction = try await bridge.createBridgeTransaction(
@@ -193,7 +192,6 @@ let bridgeTxHash = try await bridge.executeBridge(bridgeTransaction)
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git
 
 # Navigate to project directory
 cd iOS-Web3-Wallet-Framework
@@ -211,7 +209,6 @@ Add the framework to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git", from: "3.2.0")
 ]
 ```
 
@@ -296,7 +293,6 @@ let tokenTxHash = try await wallet.sendTokenTransaction(signedTokenTx)
 let uniswap = UniswapProtocol()
 let swapTransaction = try await uniswap.createSwapTransaction(
     tokenIn: "ETH",
-    tokenOut: "USDC",
     amountIn: "1.0",
     slippageTolerance: 0.5
 )
@@ -307,7 +303,6 @@ let swapTxHash = try await uniswap.executeSwap(signedSwapTx)
 // Aave integration
 let aave = AaveProtocol()
 let depositTransaction = try await aave.createDepositTransaction(
-    asset: "USDC",
     amount: "1000"
 )
 
@@ -398,7 +393,6 @@ let pairInfo = try await uniswap.getPairInfo(
 // Create swap transaction
 let swapTransaction = try await uniswap.createSwapTransaction(
     tokenIn: "ETH",
-    tokenOut: "USDC",
     amountIn: "1.0",
     slippageTolerance: 0.5,
     recipient: wallet.address
@@ -417,11 +411,9 @@ aave.version = .v3
 aave.network = .ethereum
 
 // Get lending pool info
-let poolInfo = try await aave.getPoolInfo(asset: "USDC")
 
 // Create deposit transaction
 let depositTransaction = try await aave.createDepositTransaction(
-    asset: "USDC",
     amount: "1000",
     onBehalfOf: wallet.address
 )
@@ -431,7 +423,6 @@ let depositResult = try await aave.executeDeposit(depositTransaction)
 
 // Create borrow transaction
 let borrowTransaction = try await aave.createBorrowTransaction(
-    asset: "USDC",
     amount: "500",
     interestRateMode: .stable
 )
@@ -648,7 +639,6 @@ designSystem.colors = ColorPalette(
 
 // Typography
 designSystem.typography = Typography(
-    title: Font.system(size: 34, weight: .bold),
     headline: Font.system(size: 22, weight: .semibold),
     body: Font.system(size: 17, weight: .regular),
     caption: Font.system(size: 12, weight: .medium)
@@ -764,15 +754,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/commits/master)
 
 </div>
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
