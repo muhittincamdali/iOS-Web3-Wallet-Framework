@@ -764,7 +764,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social&logo=github)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/network)
 [![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/pulls)
