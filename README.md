@@ -1,4 +1,5 @@
 # 🔐 iOS Web3 Wallet Framework
+[![CI](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
