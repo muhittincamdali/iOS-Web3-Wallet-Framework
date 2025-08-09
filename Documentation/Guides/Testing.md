@@ -1,5 +1,51 @@
 # 🧪 Testing Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🧪 Testing Guide](#-testing-guide)
+- [📋 Overview](#-overview)
+- [🚀 Quick Start](#-quick-start)
+  - [Running Tests](#running-tests)
+- [Run all tests](#run-all-tests)
+- [Run specific test category](#run-specific-test-category)
+- [Run with coverage](#run-with-coverage)
+- [Run performance tests](#run-performance-tests)
+  - [Test Structure](#test-structure)
+- [📚 Unit Testing](#-unit-testing)
+  - [Basic Unit Test Structure](#basic-unit-test-structure)
+  - [Async Testing](#async-testing)
+  - [Mock Testing](#mock-testing)
+- [🔗 Integration Testing](#-integration-testing)
+  - [End-to-End Testing](#end-to-end-testing)
+  - [Network Integration Testing](#network-integration-testing)
+- [⚡ Performance Testing](#-performance-testing)
+  - [Performance Test Structure](#performance-test-structure)
+  - [Memory Testing](#memory-testing)
+- [🛡️ Security Testing](#-security-testing)
+  - [Security Test Structure](#security-test-structure)
+  - [Penetration Testing](#penetration-testing)
+- [📱 UI Testing](#-ui-testing)
+  - [SwiftUI Testing](#swiftui-testing)
+  - [Accessibility Testing](#accessibility-testing)
+- [📊 Test Coverage](#-test-coverage)
+  - [Coverage Reporting](#coverage-reporting)
+- [Generate coverage report](#generate-coverage-report)
+- [View coverage in Xcode](#view-coverage-in-xcode)
+- [Then Product -> Show Test Coverage](#then-product-show-test-coverage)
+  - [Coverage Targets](#coverage-targets)
+- [🚀 Test Automation](#-test-automation)
+  - [CI/CD Integration](#cicd-integration)
+- [.github/workflows/test.yml](#githubworkflowstestyml)
+  - [Test Scripts](#test-scripts)
+- [scripts/run-tests.sh](#scriptsrun-testssh)
+- [📋 Testing Best Practices](#-testing-best-practices)
+  - [Test Organization](#test-organization)
+  - [Test Data Management](#test-data-management)
+  - [Mock Objects](#mock-objects)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 Comprehensive testing guide for the iOS Web3 Wallet Framework, covering unit tests, integration tests, and performance testing.
 
 ## 📋 Overview

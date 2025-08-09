@@ -1,5 +1,48 @@
 # 💰 DeFi Protocols
 
+<!-- TOC START -->
+## Table of Contents
+- [💰 DeFi Protocols](#-defi-protocols)
+- [📋 Overview](#-overview)
+- [🚀 Quick Start](#-quick-start)
+  - [Uniswap Token Swap](#uniswap-token-swap)
+  - [Aave Lending](#aave-lending)
+- [📚 API Reference](#-api-reference)
+  - [UniswapManager](#uniswapmanager)
+    - [Initialization](#initialization)
+    - [Methods](#methods)
+      - [swap](#swap)
+      - [addLiquidity](#addliquidity)
+      - [getSwapQuote](#getswapquote)
+  - [AaveManager](#aavemanager)
+    - [Methods](#methods)
+      - [supply](#supply)
+      - [borrow](#borrow)
+  - [CompoundManager](#compoundmanager)
+    - [Methods](#methods)
+      - [supply](#supply)
+- [🏗️ Data Models](#-data-models)
+  - [UniswapSwap](#uniswapswap)
+  - [AddLiquidityParams](#addliquidityparams)
+  - [SwapQuote](#swapquote)
+  - [AaveSupply](#aavesupply)
+  - [AaveBorrow](#aaveborrow)
+- [🔧 Protocol Configuration](#-protocol-configuration)
+  - [Uniswap Configuration](#uniswap-configuration)
+  - [Aave Configuration](#aave-configuration)
+  - [Compound Configuration](#compound-configuration)
+- [📱 UI Integration](#-ui-integration)
+  - [SwiftUI Integration](#swiftui-integration)
+- [🧪 Testing](#-testing)
+  - [Unit Tests](#unit-tests)
+- [🚀 Best Practices](#-best-practices)
+  - [Security Guidelines](#security-guidelines)
+  - [Performance Optimization](#performance-optimization)
+  - [Error Handling](#error-handling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 The DeFi Protocols API provides comprehensive integration with popular DeFi protocols including Uniswap, Aave, and Compound.
 
 ## 📋 Overview

@@ -1,5 +1,50 @@
 # 🌐 Blockchain Integration
 
+<!-- TOC START -->
+## Table of Contents
+- [🌐 Blockchain Integration](#-blockchain-integration)
+- [📋 Overview](#-overview)
+- [🚀 Quick Start](#-quick-start)
+  - [Basic Transaction](#basic-transaction)
+  - [Network Switching](#network-switching)
+- [📚 API Reference](#-api-reference)
+  - [TransactionManager](#transactionmanager)
+    - [Initialization](#initialization)
+    - [Properties](#properties)
+    - [Methods](#methods)
+      - [sendTransaction](#sendtransaction)
+      - [estimateGas](#estimategas)
+      - [getCurrentGasPrice](#getcurrentgasprice)
+      - [switchNetwork](#switchnetwork)
+      - [getTransactionStatus](#gettransactionstatus)
+      - [getTransactionReceipt](#gettransactionreceipt)
+      - [batchTransactions](#batchtransactions)
+- [🏗️ Data Models](#-data-models)
+  - [Transaction](#transaction)
+  - [BlockchainNetwork](#blockchainnetwork)
+  - [TransactionStatus](#transactionstatus)
+  - [TransactionReceipt](#transactionreceipt)
+  - [GasStrategy](#gasstrategy)
+- [🔧 Network Configuration](#-network-configuration)
+  - [Supported Networks](#supported-networks)
+  - [Custom RPC Configuration](#custom-rpc-configuration)
+- [⛽ Gas Optimization](#-gas-optimization)
+  - [Automatic Gas Estimation](#automatic-gas-estimation)
+  - [Manual Gas Configuration](#manual-gas-configuration)
+  - [Gas Price Optimization](#gas-price-optimization)
+- [📱 UI Integration](#-ui-integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [Network Selection](#network-selection)
+- [🧪 Testing](#-testing)
+  - [Unit Tests](#unit-tests)
+- [🚀 Best Practices](#-best-practices)
+  - [Security Guidelines](#security-guidelines)
+  - [Performance Optimization](#performance-optimization)
+  - [Error Handling](#error-handling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 The Blockchain Integration API provides comprehensive functionality for interacting with multiple blockchain networks, managing transactions, and handling gas optimization.
 
 ## 📋 Overview

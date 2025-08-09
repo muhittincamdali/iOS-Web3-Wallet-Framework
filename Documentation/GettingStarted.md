@@ -1,5 +1,20 @@
 # 🚀 Getting Started Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🚀 Getting Started Guide](#-getting-started-guide)
+- [📋 Requirements](#-requirements)
+- [⚡ Quick Installation](#-quick-installation)
+  - [Swift Package Manager](#swift-package-manager)
+  - [CocoaPods](#cocoapods)
+- [🔧 Basic Setup](#-basic-setup)
+- [📱 Create First Wallet](#-create-first-wallet)
+- [🔐 Security Settings](#-security-settings)
+- [📚 Next Steps](#-next-steps)
+- [�� Help](#-help)
+<!-- TOC END -->
+
+
 ## 📋 Requirements
 
 - iOS 15.0+

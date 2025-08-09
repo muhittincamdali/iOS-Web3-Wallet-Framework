@@ -1,5 +1,32 @@
 # 🔧 Wallet Setup Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🔧 Wallet Setup Guide](#-wallet-setup-guide)
+- [📋 Wallet Setup Options](#-wallet-setup-options)
+  - [1. Create New Wallet](#1-create-new-wallet)
+  - [2. Import Existing Wallet](#2-import-existing-wallet)
+- [🔐 Security Setup](#-security-setup)
+  - [Biometric Authentication](#biometric-authentication)
+  - [Secure Storage](#secure-storage)
+- [🌐 Network Configuration](#-network-configuration)
+  - [Supported Networks](#supported-networks)
+  - [Add Custom Network](#add-custom-network)
+- [💰 Token Configuration](#-token-configuration)
+  - [Add ERC-20 Token](#add-erc-20-token)
+- [📊 Backup and Restore](#-backup-and-restore)
+  - [Wallet Backup](#wallet-backup)
+  - [Wallet Restore](#wallet-restore)
+- [🔧 Advanced Settings](#-advanced-settings)
+  - [Gas Settings](#gas-settings)
+  - [Transaction Settings](#transaction-settings)
+- [📱 UI Integration](#-ui-integration)
+  - [Wallet Connection](#wallet-connection)
+- [🚨 Error Handling](#-error-handling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 📋 Wallet Setup Options
 
 ### 1. Create New Wallet

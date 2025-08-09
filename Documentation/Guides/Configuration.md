@@ -3,6 +3,16 @@
 
 # Configuration
 
+<!-- TOC START -->
+## Table of Contents
+- [Configuration](#configuration)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

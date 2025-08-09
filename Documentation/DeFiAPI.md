@@ -1,5 +1,33 @@
 # 💰 DeFi API
 
+<!-- TOC START -->
+## Table of Contents
+- [💰 DeFi API](#-defi-api)
+- [🏦 Protocol Integration](#-protocol-integration)
+  - [Uniswap API](#uniswap-api)
+  - [Aave API](#aave-api)
+  - [Compound API](#compound-api)
+- [🌾 Yield Farming API](#-yield-farming-api)
+  - [Farm Management](#farm-management)
+  - [Staking Operations](#staking-operations)
+- [�� Liquidity Pool API](#-liquidity-pool-api)
+  - [Pool Management](#pool-management)
+  - [Position Management](#position-management)
+- [📊 DeFi Analytics API](#-defi-analytics-api)
+  - [Portfolio Analytics](#portfolio-analytics)
+  - [Protocol Analytics](#protocol-analytics)
+- [🔐 DeFi Security API](#-defi-security-api)
+  - [Smart Contract Security](#smart-contract-security)
+  - [Slippage Protection](#slippage-protection)
+- [📈 DeFi Strategies API](#-defi-strategies-api)
+  - [Strategy Management](#strategy-management)
+  - [Auto-compound](#auto-compound)
+- [📊 DeFi Reporting API](#-defi-reporting-api)
+  - [Report Generation](#report-generation)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 🏦 Protocol Integration
 
 ### Uniswap API

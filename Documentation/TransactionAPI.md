@@ -1,5 +1,55 @@
 # Transaction API Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [Transaction API Documentation](#transaction-api-documentation)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Transaction Creation](#transaction-creation)
+  - [TransactionManager](#transactionmanager)
+  - [Transaction](#transaction)
+  - [TransactionBuilder](#transactionbuilder)
+- [Transaction Signing](#transaction-signing)
+  - [TransactionSigner](#transactionsigner)
+  - [Signature](#signature)
+- [Transaction Broadcasting](#transaction-broadcasting)
+  - [TransactionBroadcaster](#transactionbroadcaster)
+  - [BroadcastResult](#broadcastresult)
+- [Transaction Monitoring](#transaction-monitoring)
+  - [TransactionMonitor](#transactionmonitor)
+  - [TransactionStatus](#transactionstatus)
+  - [Log](#log)
+- [Gas Management](#gas-management)
+  - [GasManager](#gasmanager)
+  - [GasPrice](#gasprice)
+- [Transaction History](#transaction-history)
+  - [TransactionHistoryManager](#transactionhistorymanager)
+  - [TransactionDetails](#transactiondetails)
+  - [InternalTransaction](#internaltransaction)
+- [Batch Transactions](#batch-transactions)
+  - [BatchTransactionManager](#batchtransactionmanager)
+  - [BatchTransaction](#batchtransaction)
+- [Advanced Features](#advanced-features)
+  - [TransactionSimulator](#transactionsimulator)
+  - [TransactionSimulation](#transactionsimulation)
+  - [TransactionCost](#transactioncost)
+  - [ValidationResult](#validationresult)
+- [Usage Examples](#usage-examples)
+  - [Basic Transaction](#basic-transaction)
+  - [Token Transaction](#token-transaction)
+  - [Transaction Monitoring](#transaction-monitoring)
+  - [Batch Transactions](#batch-transactions)
+  - [Transaction Simulation](#transaction-simulation)
+- [Best Practices](#best-practices)
+  - [Transaction Guidelines](#transaction-guidelines)
+  - [Security Guidelines](#security-guidelines)
+  - [Performance Guidelines](#performance-guidelines)
+- [Integration](#integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [UIKit Integration](#uikit-integration)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Transaction API provides comprehensive transaction management capabilities for Web3 wallet applications, including transaction creation, signing, broadcasting, monitoring, and advanced transaction features. This API is designed for high performance and reliability.

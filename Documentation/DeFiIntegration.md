@@ -1,5 +1,32 @@
 # 💰 DeFi Integration Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [💰 DeFi Integration Guide](#-defi-integration-guide)
+- [🏦 DeFi Protocol Integration](#-defi-protocol-integration)
+  - [Uniswap Integration](#uniswap-integration)
+  - [Aave Integration](#aave-integration)
+  - [Compound Integration](#compound-integration)
+- [🌾 Yield Farming](#-yield-farming)
+  - [Yield Farming Protocol](#yield-farming-protocol)
+- [🔄 Liquidity Pool Management](#-liquidity-pool-management)
+  - [Uniswap V3 Liquidity](#uniswap-v3-liquidity)
+- [📊 DeFi Analytics](#-defi-analytics)
+  - [Portfolio Tracking](#portfolio-tracking)
+  - [Yield Optimizer](#yield-optimizer)
+- [🔐 DeFi Security](#-defi-security)
+  - [Smart Contract Validation](#smart-contract-validation)
+  - [Slippage Protection](#slippage-protection)
+- [📈 DeFi Strategies](#-defi-strategies)
+  - [DCA (Dollar Cost Averaging)](#dca-dollar-cost-averaging)
+  - [Arbitrage Trading](#arbitrage-trading)
+- [🚨 Risk Management](#-risk-management)
+  - [Stop Loss](#stop-loss)
+  - [Position Sizing](#position-sizing)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 🏦 DeFi Protocol Integration
 
 ### Uniswap Integration

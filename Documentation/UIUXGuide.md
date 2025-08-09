@@ -1,5 +1,34 @@
 # 🎨 UI/UX Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🎨 UI/UX Guide](#-uiux-guide)
+- [🎯 Design System](#-design-system)
+  - [Color Palette](#color-palette)
+  - [Typography](#typography)
+  - [Spacing](#spacing)
+- [🎬 Custom Animations](#-custom-animations)
+  - [Transaction Animation](#transaction-animation)
+- [📱 UI Components](#-ui-components)
+  - [Wallet Card](#wallet-card)
+  - [Transaction List](#transaction-list)
+  - [Send Transaction View](#send-transaction-view)
+- [🎨 Custom Themes](#-custom-themes)
+  - [Dark Theme](#dark-theme)
+  - [Light Theme](#light-theme)
+- [🔄 State Management](#-state-management)
+  - [Wallet State](#wallet-state)
+  - [Transaction State](#transaction-state)
+- [📊 Data Visualization](#-data-visualization)
+  - [Balance Chart](#balance-chart)
+  - [Portfolio Distribution](#portfolio-distribution)
+- [🎯 User Experience](#-user-experience)
+  - [Onboarding Flow](#onboarding-flow)
+  - [Error Handling](#error-handling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 🎯 Design System
 
 ### Color Palette

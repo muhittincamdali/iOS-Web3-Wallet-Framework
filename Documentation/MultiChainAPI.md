@@ -1,5 +1,48 @@
 # Multi-Chain API Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [Multi-Chain API Documentation](#multi-chain-api-documentation)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Supported Networks](#supported-networks)
+  - [Ethereum](#ethereum)
+  - [Polygon](#polygon)
+  - [Binance Smart Chain](#binance-smart-chain)
+  - [Arbitrum](#arbitrum)
+  - [Optimism](#optimism)
+- [Network Management](#network-management)
+  - [NetworkManager](#networkmanager)
+  - [Network Configuration](#network-configuration)
+- [Cross-Chain Operations](#cross-chain-operations)
+  - [CrossChainManager](#crosschainmanager)
+  - [MultiChainWallet](#multichainwallet)
+- [Token Standards](#token-standards)
+  - [ERC-20 Support](#erc-20-support)
+  - [ERC-721 Support](#erc-721-support)
+  - [ERC-1155 Support](#erc-1155-support)
+- [Gas Management](#gas-management)
+  - [GasOptimizer](#gasoptimizer)
+  - [GasPrice](#gasprice)
+- [Transaction Handling](#transaction-handling)
+  - [MultiChainTransaction](#multichaintransaction)
+- [Bridge Operations](#bridge-operations)
+  - [CrossChainBridge](#crosschainbridge)
+  - [BridgeTransaction](#bridgetransaction)
+- [Usage Examples](#usage-examples)
+  - [Basic Multi-Chain Setup](#basic-multi-chain-setup)
+  - [Cross-Chain Token Transfer](#cross-chain-token-transfer)
+  - [Multi-Chain Balance Check](#multi-chain-balance-check)
+- [Best Practices](#best-practices)
+  - [Network Selection](#network-selection)
+  - [Transaction Management](#transaction-management)
+  - [Security Considerations](#security-considerations)
+- [Integration](#integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [UIKit Integration](#uikit-integration)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Multi-Chain API provides comprehensive support for multiple blockchain networks, enabling seamless interaction with Ethereum, Polygon, Binance Smart Chain, Arbitrum, Optimism, and other networks. This API is designed for high performance, security, and ease of use.

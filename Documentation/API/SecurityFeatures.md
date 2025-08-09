@@ -3,6 +3,16 @@
 
 # SecurityFeatures
 
+<!-- TOC START -->
+## Table of Contents
+- [SecurityFeatures](#securityfeatures)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

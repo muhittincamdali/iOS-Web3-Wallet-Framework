@@ -1,5 +1,26 @@
 # Wallet Management API
 
+<!-- TOC START -->
+## Table of Contents
+- [Wallet Management API](#wallet-management-api)
+- [Overview](#overview)
+- [Wallet Creation](#wallet-creation)
+  - [Wallet Manager](#wallet-manager)
+  - [Wallet Model](#wallet-model)
+- [Key Management](#key-management)
+  - [Key Manager](#key-manager)
+- [Security Management](#security-management)
+  - [Security Manager](#security-manager)
+- [Storage Management](#storage-management)
+  - [Storage Manager](#storage-manager)
+- [Error Handling](#error-handling)
+  - [Wallet Errors](#wallet-errors)
+- [Testing](#testing)
+  - [Wallet Management Tests](#wallet-management-tests)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Wallet Management API provides comprehensive wallet creation, management, and security features for Web3 applications. It supports multiple blockchain networks, secure key management, and advanced wallet operations.

@@ -1,5 +1,32 @@
 # 📊 Analytics API
 
+<!-- TOC START -->
+## Table of Contents
+- [📊 Analytics API](#-analytics-api)
+- [📈 Transaction Analytics](#-transaction-analytics)
+  - [Track Transaction](#track-transaction)
+- [📊 Performance Monitoring](#-performance-monitoring)
+  - [Monitor Gas Usage](#monitor-gas-usage)
+- [📈 Portfolio Analytics](#-portfolio-analytics)
+  - [Portfolio Tracking](#portfolio-tracking)
+- [📊 DeFi Analytics](#-defi-analytics)
+  - [Yield Analytics](#yield-analytics)
+- [📈 Risk Analytics](#-risk-analytics)
+  - [Risk Assessment](#risk-assessment)
+- [📊 Security Analytics](#-security-analytics)
+  - [Security Monitoring](#security-monitoring)
+- [📈 Market Analytics](#-market-analytics)
+  - [Market Data](#market-data)
+- [📊 Reporting](#-reporting)
+  - [Generate Reports](#generate-reports)
+- [📈 Data Export](#-data-export)
+  - [Export Data](#export-data)
+- [📊 Real-time Analytics](#-real-time-analytics)
+  - [Live Updates](#live-updates)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 📈 Transaction Analytics
 
 ### Track Transaction

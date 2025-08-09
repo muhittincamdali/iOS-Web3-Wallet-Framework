@@ -1,5 +1,39 @@
 # 📚 iOS Web3 Wallet Framework Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [📚 iOS Web3 Wallet Framework Documentation](#-ios-web3-wallet-framework-documentation)
+- [📖 Documentation Structure](#-documentation-structure)
+  - [🚀 Getting Started](#-getting-started)
+  - [🔐 Core Components](#-core-components)
+  - [💰 DeFi Integration](#-defi-integration)
+  - [🛡️ Security & Best Practices](#-security-best-practices)
+  - [🧪 Testing & Quality](#-testing-quality)
+  - [📱 UI Components](#-ui-components)
+- [🎯 Quick Navigation](#-quick-navigation)
+  - [For Beginners](#for-beginners)
+  - [For Developers](#for-developers)
+  - [For Advanced Users](#for-advanced-users)
+- [🔧 Framework Architecture](#-framework-architecture)
+- [🚀 Key Features](#-key-features)
+  - [🔐 Wallet Management](#-wallet-management)
+  - [🌐 Blockchain Integration](#-blockchain-integration)
+  - [💰 DeFi Protocols](#-defi-protocols)
+  - [🛡️ Security Features](#-security-features)
+- [📋 Requirements](#-requirements)
+  - [System Requirements](#system-requirements)
+  - [Dependencies](#dependencies)
+- [🔗 Related Resources](#-related-resources)
+  - [📚 External Documentation](#-external-documentation)
+  - [🛠️ Tools & Libraries](#-tools-libraries)
+  - [🎓 Learning Resources](#-learning-resources)
+- [🤝 Contributing](#-contributing)
+  - [📝 Documentation Guidelines](#-documentation-guidelines)
+  - [🐛 Reporting Issues](#-reporting-issues)
+- [📄 License](#-license)
+<!-- TOC END -->
+
+
 Welcome to the comprehensive documentation for the iOS Web3 Wallet Framework. This documentation provides detailed guides, API references, and examples to help you integrate Web3 functionality into your iOS applications.
 
 ## 📖 Documentation Structure

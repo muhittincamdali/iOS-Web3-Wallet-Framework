@@ -1,5 +1,39 @@
 # ⚡ Performance Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [⚡ Performance Guide](#-performance-guide)
+- [🚀 Performance Optimization](#-performance-optimization)
+  - [Gas Optimization](#gas-optimization)
+  - [Transaction Batching](#transaction-batching)
+- [📊 Real-Time Updates](#-real-time-updates)
+  - [Balance Monitoring](#balance-monitoring)
+  - [Network Performance](#network-performance)
+- [🔄 Caching Strategies](#-caching-strategies)
+  - [Memory Cache](#memory-cache)
+  - [Disk Cache](#disk-cache)
+- [⚡ Async/Await Optimization](#-asyncawait-optimization)
+  - [Concurrent Operations](#concurrent-operations)
+  - [Task Management](#task-management)
+- [📱 UI Performance](#-ui-performance)
+  - [Lazy Loading](#lazy-loading)
+  - [Background Processing](#background-processing)
+- [🔧 Memory Management](#-memory-management)
+  - [Weak References](#weak-references)
+  - [Automatic Cleanup](#automatic-cleanup)
+- [📊 Performance Monitoring](#-performance-monitoring)
+  - [Metrics Collection](#metrics-collection)
+  - [Performance Alerts](#performance-alerts)
+- [🚀 Optimization Techniques](#-optimization-techniques)
+  - [Network Optimization](#network-optimization)
+  - [Database Optimization](#database-optimization)
+- [📈 Scalability](#-scalability)
+  - [Horizontal Scaling](#horizontal-scaling)
+  - [Vertical Scaling](#vertical-scaling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 🚀 Performance Optimization
 
 ### Gas Optimization

@@ -1,5 +1,36 @@
 # 🚀 Getting Started
 
+<!-- TOC START -->
+## Table of Contents
+- [🚀 Getting Started](#-getting-started)
+- [📋 Prerequisites](#-prerequisites)
+- [⚡ Quick Setup](#-quick-setup)
+  - [1. Add the Framework](#1-add-the-framework)
+    - [Swift Package Manager](#swift-package-manager)
+  - [2. Import the Framework](#2-import-the-framework)
+  - [3. Create Your First Wallet](#3-create-your-first-wallet)
+- [🎯 Basic Usage](#-basic-usage)
+  - [Wallet Management](#wallet-management)
+  - [Transaction Management](#transaction-management)
+  - [DeFi Integration](#defi-integration)
+- [🔧 Configuration](#-configuration)
+  - [Network Selection](#network-selection)
+  - [Custom RPC Endpoints](#custom-rpc-endpoints)
+- [🛡️ Security Setup](#-security-setup)
+  - [Biometric Authentication](#biometric-authentication)
+  - [Hardware Wallet Support](#hardware-wallet-support)
+- [📱 UI Components](#-ui-components)
+  - [Pre-built Wallet UI](#pre-built-wallet-ui)
+- [🧪 Testing](#-testing)
+  - [Run Tests](#run-tests)
+- [Run all tests](#run-all-tests)
+- [Run specific test category](#run-specific-test-category)
+  - [Test Coverage](#test-coverage)
+- [📚 Next Steps](#-next-steps)
+- [🆘 Need Help?](#-need-help)
+<!-- TOC END -->
+
+
 Welcome to the iOS Web3 Wallet Framework! This guide will help you get up and running in just 5 minutes.
 
 ## 📋 Prerequisites

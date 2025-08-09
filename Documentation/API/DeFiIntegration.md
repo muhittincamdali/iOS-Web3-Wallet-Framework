@@ -3,6 +3,16 @@
 
 # DeFiIntegration
 
+<!-- TOC START -->
+## Table of Contents
+- [DeFiIntegration](#defiintegration)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

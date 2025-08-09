@@ -3,6 +3,16 @@
 
 # DeFiProtocols
 
+<!-- TOC START -->
+## Table of Contents
+- [DeFiProtocols](#defiprotocols)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

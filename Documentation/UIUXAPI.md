@@ -1,5 +1,50 @@
 # UI/UX API Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [UI/UX API Documentation](#uiux-api-documentation)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Design System](#design-system)
+  - [ColorPalette](#colorpalette)
+  - [Typography](#typography)
+  - [Spacing](#spacing)
+- [Wallet Components](#wallet-components)
+  - [WalletCard](#walletcard)
+  - [BalanceDisplay](#balancedisplay)
+  - [TokenList](#tokenlist)
+- [Transaction UI](#transaction-ui)
+  - [TransactionCard](#transactioncard)
+  - [TransactionHistory](#transactionhistory)
+  - [SendTransactionView](#sendtransactionview)
+- [DeFi Components](#defi-components)
+  - [DeFiProtocolCard](#defiprotocolcard)
+  - [SwapView](#swapview)
+  - [YieldFarmingView](#yieldfarmingview)
+- [Security UI](#security-ui)
+  - [BiometricAuthView](#biometricauthview)
+  - [HardwareWalletView](#hardwarewalletview)
+  - [SecuritySettingsView](#securitysettingsview)
+- [Animations](#animations)
+  - [WalletAnimations](#walletanimations)
+  - [AnimatedBalance](#animatedbalance)
+- [Accessibility](#accessibility)
+  - [AccessibilitySupport](#accessibilitysupport)
+  - [VoiceOverSupport](#voiceoversupport)
+- [Usage Examples](#usage-examples)
+  - [Basic Wallet UI](#basic-wallet-ui)
+  - [DeFi Integration](#defi-integration)
+  - [Security Setup](#security-setup)
+- [Best Practices](#best-practices)
+  - [Design Guidelines](#design-guidelines)
+  - [Animation Guidelines](#animation-guidelines)
+  - [Security Guidelines](#security-guidelines)
+- [Integration](#integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [UIKit Integration](#uikit-integration)
+<!-- TOC END -->
+
+
 ## Overview
 
 The UI/UX API provides comprehensive components and utilities for creating beautiful, modern, and accessible Web3 wallet interfaces. This API is designed to work seamlessly with SwiftUI and follows Apple's Human Interface Guidelines.

@@ -1,5 +1,43 @@
 # 🔐 Wallet Management
 
+<!-- TOC START -->
+## Table of Contents
+- [🔐 Wallet Management](#-wallet-management)
+- [📋 Overview](#-overview)
+- [🚀 Quick Start](#-quick-start)
+  - [Basic Wallet Creation](#basic-wallet-creation)
+  - [Import Existing Wallet](#import-existing-wallet)
+- [📚 API Reference](#-api-reference)
+  - [WalletManager](#walletmanager)
+    - [Initialization](#initialization)
+    - [Properties](#properties)
+    - [Methods](#methods)
+      - [createWallet](#createwallet)
+      - [importWallet](#importwallet)
+      - [getBalance](#getbalance)
+      - [exportWallet](#exportwallet)
+      - [deleteWallet](#deletewallet)
+- [🏗️ Data Models](#-data-models)
+  - [Wallet](#wallet)
+  - [WalletExport](#walletexport)
+  - [WalletError](#walleterror)
+- [🔐 Security Features](#-security-features)
+  - [Biometric Authentication](#biometric-authentication)
+  - [Hardware Wallet Support](#hardware-wallet-support)
+  - [Encrypted Storage](#encrypted-storage)
+- [📱 UI Integration](#-ui-integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [UIKit Integration](#uikit-integration)
+- [🧪 Testing](#-testing)
+  - [Unit Tests](#unit-tests)
+- [🚀 Best Practices](#-best-practices)
+  - [Security Guidelines](#security-guidelines)
+  - [Performance Optimization](#performance-optimization)
+  - [Error Handling](#error-handling)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 The Wallet Management API provides comprehensive functionality for creating, importing, and managing cryptocurrency wallets in your iOS applications.
 
 ## 📋 Overview

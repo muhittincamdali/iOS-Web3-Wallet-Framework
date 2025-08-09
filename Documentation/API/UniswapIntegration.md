@@ -3,6 +3,16 @@
 
 # UniswapIntegration
 
+<!-- TOC START -->
+## Table of Contents
+- [UniswapIntegration](#uniswapintegration)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

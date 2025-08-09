@@ -3,6 +3,16 @@
 
 # WalletUI
 
+<!-- TOC START -->
+## Table of Contents
+- [WalletUI](#walletui)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

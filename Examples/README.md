@@ -1,5 +1,48 @@
 # 🎪 iOS Web3 Wallet Framework Examples
 
+<!-- TOC START -->
+## Table of Contents
+- [🎪 iOS Web3 Wallet Framework Examples](#-ios-web3-wallet-framework-examples)
+- [📱 Available Examples](#-available-examples)
+  - [🔐 Basic Wallet](#-basic-wallet)
+  - [💰 DeFi App](#-defi-app)
+  - [🖼️ NFT Gallery](#-nft-gallery)
+- [🚀 Getting Started with Examples](#-getting-started-with-examples)
+  - [Prerequisites](#prerequisites)
+  - [Quick Start](#quick-start)
+  - [Example Structure](#example-structure)
+- [🎯 Example Features](#-example-features)
+  - [🔐 Basic Wallet Example](#-basic-wallet-example)
+  - [💰 DeFi App Example](#-defi-app-example)
+  - [🖼️ NFT Gallery Example](#-nft-gallery-example)
+- [🛠️ Customizing Examples](#-customizing-examples)
+  - [Adding New Features](#adding-new-features)
+  - [Styling and Theming](#styling-and-theming)
+- [📚 Learning Path](#-learning-path)
+  - [🥇 Beginner Level](#-beginner-level)
+  - [🥈 Intermediate Level](#-intermediate-level)
+  - [🥉 Advanced Level](#-advanced-level)
+- [🔧 Configuration](#-configuration)
+  - [Environment Setup](#environment-setup)
+  - [Network Configuration](#network-configuration)
+- [🧪 Testing Examples](#-testing-examples)
+  - [Running Tests](#running-tests)
+- [Run all tests](#run-all-tests)
+- [Run specific example tests](#run-specific-example-tests)
+  - [Test Coverage](#test-coverage)
+- [📱 Deployment](#-deployment)
+  - [App Store Deployment](#app-store-deployment)
+  - [TestFlight Distribution](#testflight-distribution)
+- [🤝 Contributing Examples](#-contributing-examples)
+  - [Creating a New Example](#creating-a-new-example)
+  - [Example Guidelines](#example-guidelines)
+- [📄 License](#-license)
+- [🆘 Support](#-support)
+  - [Getting Help](#getting-help)
+  - [Common Issues](#common-issues)
+<!-- TOC END -->
+
+
 This directory contains comprehensive examples demonstrating how to use the iOS Web3 Wallet Framework in real-world applications.
 
 ## 📱 Available Examples

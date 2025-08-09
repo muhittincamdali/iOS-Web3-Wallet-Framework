@@ -1,5 +1,41 @@
 # 🛡️ Security Guidelines
 
+<!-- TOC START -->
+## Table of Contents
+- [🛡️ Security Guidelines](#-security-guidelines)
+- [📋 Overview](#-overview)
+- [🔐 Private Key Management](#-private-key-management)
+  - [Secure Storage](#secure-storage)
+  - [Key Derivation](#key-derivation)
+- [🔑 Biometric Authentication](#-biometric-authentication)
+  - [Touch ID / Face ID Integration](#touch-id-face-id-integration)
+  - [Secure Operations](#secure-operations)
+- [💳 Hardware Wallet Integration](#-hardware-wallet-integration)
+  - [Ledger Integration](#ledger-integration)
+  - [Trezor Integration](#trezor-integration)
+- [🏦 Secure Storage Practices](#-secure-storage-practices)
+  - [Data Encryption](#data-encryption)
+  - [Secure Configuration](#secure-configuration)
+- [🔍 Transaction Validation](#-transaction-validation)
+  - [Address Validation](#address-validation)
+  - [Amount Validation](#amount-validation)
+- [🌐 Network Security](#-network-security)
+  - [RPC Endpoint Security](#rpc-endpoint-security)
+  - [SSL/TLS Configuration](#ssltls-configuration)
+- [🧪 Security Testing](#-security-testing)
+  - [Penetration Testing](#penetration-testing)
+  - [Vulnerability Assessment](#vulnerability-assessment)
+- [📋 Security Checklist](#-security-checklist)
+  - [Development Phase](#development-phase)
+  - [Production Phase](#production-phase)
+  - [Maintenance Phase](#maintenance-phase)
+- [🚨 Security Best Practices](#-security-best-practices)
+  - [General Guidelines](#general-guidelines)
+  - [Code Security](#code-security)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 Comprehensive security guidelines for implementing secure Web3 wallet functionality in iOS applications.
 
 ## 📋 Overview

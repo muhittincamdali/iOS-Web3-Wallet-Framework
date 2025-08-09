@@ -1,5 +1,49 @@
 # Security API Documentation
 
+<!-- TOC START -->
+## Table of Contents
+- [Security API Documentation](#security-api-documentation)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Hardware Wallet Integration](#hardware-wallet-integration)
+  - [HardwareWalletManager](#hardwarewalletmanager)
+  - [HardwareWallet](#hardwarewallet)
+- [Biometric Authentication](#biometric-authentication)
+  - [BiometricAuthenticationManager](#biometricauthenticationmanager)
+  - [BiometricAuthView](#biometricauthview)
+- [Secure Key Management](#secure-key-management)
+  - [SecureKeyManager](#securekeymanager)
+  - [KeyPair](#keypair)
+  - [KeychainManager](#keychainmanager)
+- [Transaction Security](#transaction-security)
+  - [TransactionSecurityManager](#transactionsecuritymanager)
+  - [TransactionSimulation](#transactionsimulation)
+  - [SecurityRisk](#securityrisk)
+- [Network Security](#network-security)
+  - [NetworkSecurityManager](#networksecuritymanager)
+  - [CertificatePinning](#certificatepinning)
+- [Encryption](#encryption)
+  - [EncryptionManager](#encryptionmanager)
+  - [HashAlgorithm](#hashalgorithm)
+- [Security Monitoring](#security-monitoring)
+  - [SecurityMonitor](#securitymonitor)
+  - [SecurityEvent](#securityevent)
+  - [SecurityAnomaly](#securityanomaly)
+- [Usage Examples](#usage-examples)
+  - [Hardware Wallet Setup](#hardware-wallet-setup)
+  - [Biometric Authentication](#biometric-authentication)
+  - [Secure Key Management](#secure-key-management)
+  - [Transaction Security](#transaction-security)
+- [Best Practices](#best-practices)
+  - [Security Guidelines](#security-guidelines)
+  - [Implementation Guidelines](#implementation-guidelines)
+  - [Compliance](#compliance)
+- [Integration](#integration)
+  - [SwiftUI Integration](#swiftui-integration)
+  - [UIKit Integration](#uikit-integration)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Security API provides comprehensive security features for Web3 wallet applications, including hardware wallet integration, biometric authentication, secure key management, and advanced security protocols. This API is designed to meet enterprise-grade security standards.

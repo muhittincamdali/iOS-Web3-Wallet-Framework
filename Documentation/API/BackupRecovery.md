@@ -3,6 +3,16 @@
 
 # BackupRecovery
 
+<!-- TOC START -->
+## Table of Contents
+- [BackupRecovery](#backuprecovery)
+- [Overview](#overview)
+- [API](#api)
+- [Usage](#usage)
+- [Notes](#notes)
+<!-- TOC END -->
+
+
 ## Overview
 Explain the purpose and context.
 

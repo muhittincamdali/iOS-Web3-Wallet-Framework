@@ -1,5 +1,37 @@
 # 🔐 Security Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🔐 Security Guide](#-security-guide)
+- [🛡️ Security Best Practices](#-security-best-practices)
+  - [1. Private Key Management](#1-private-key-management)
+  - [2. Biometric Authentication](#2-biometric-authentication)
+  - [3. Secure Storage](#3-secure-storage)
+- [🔒 Hardware Wallet Integration](#-hardware-wallet-integration)
+  - [Ledger Wallet](#ledger-wallet)
+  - [Trezor Wallet](#trezor-wallet)
+- [🚨 Security Warnings](#-security-warnings)
+  - [Phishing Protection](#phishing-protection)
+  - [Transaction Validation](#transaction-validation)
+- [🔐 Encryption](#-encryption)
+  - [AES Encryption](#aes-encryption)
+  - [RSA Encryption](#rsa-encryption)
+- [🛡️ Security Checks](#-security-checks)
+  - [Device Security](#device-security)
+  - [App Security](#app-security)
+- [🔍 Security Audit](#-security-audit)
+  - [Security Scan](#security-scan)
+  - [Penetration Testing](#penetration-testing)
+- [📊 Security Reporting](#-security-reporting)
+  - [Security Incidents](#security-incidents)
+  - [Security Metrics](#security-metrics)
+- [🚨 Emergency Procedures](#-emergency-procedures)
+  - [Wallet Locking](#wallet-locking)
+  - [Data Wiping](#data-wiping)
+- [📚 Related Documentation](#-related-documentation)
+<!-- TOC END -->
+
+
 ## 🛡️ Security Best Practices
 
 ### 1. Private Key Management
