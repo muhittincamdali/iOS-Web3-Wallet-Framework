@@ -775,4 +775,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
+[![Stargazers repo roster for @muhittincamdali/iOS-Web3-Wallet-Framework](https://starchart.cc/muhittincamdali/iOS-Web3-Wallet-Framework.svg)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
