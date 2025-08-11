@@ -1,90 +1,35 @@
-# 🚀 Getting Started Guide
+# 🚀 Getting Started
 
-<!-- TOC START -->
-## Table of Contents
-- [🚀 Getting Started Guide](#-getting-started-guide)
-- [📋 Requirements](#-requirements)
-- [⚡ Quick Installation](#-quick-installation)
-  - [Swift Package Manager](#swift-package-manager)
-  - [CocoaPods](#cocoapods)
-- [🔧 Basic Setup](#-basic-setup)
-- [📱 Create First Wallet](#-create-first-wallet)
-- [🔐 Security Settings](#-security-settings)
-- [📚 Next Steps](#-next-steps)
-- [�� Help](#-help)
-<!-- TOC END -->
+Welcome to our world-class iOS development framework! This guide will help you get started quickly and efficiently.
 
-
-## 📋 Requirements
+## Prerequisites
 
 - iOS 15.0+
+- Xcode 14.0+
 - Swift 5.9+
-- Xcode 15.0+
-- CocoaPods or Swift Package Manager
+- macOS 12.0+
 
-## ⚡ Quick Installation
+## Installation
 
 ### Swift Package Manager
 
+Add the following dependency to your `Package.swift`:
+
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework", from: "1.0.0")
+    .package(url: "https://github.com/muhittincamdali/REPO_NAME.git", from: "1.0.0")
 ]
 ```
 
-### CocoaPods
+## Basic Setup
 
-```ruby
-pod 'iOS-Web3-Wallet-Framework', '~> 1.0.0'
-```
+1. Import the framework
+2. Initialize the main component
+3. Configure your settings
+4. Start using the features
 
-## 🔧 Basic Setup
+## Next Steps
 
-```swift
-import Web3Wallet
-
-// Initialize framework
-Web3Wallet.initialize()
-
-// Network configuration
-let networkConfig = NetworkConfiguration()
-networkConfig.addNetwork(.ethereum)
-networkConfig.addNetwork(.polygon)
-```
-
-## 📱 Create First Wallet
-
-```swift
-// Create new wallet
-let wallet = try Wallet.create()
-
-// Get wallet address
-let address = wallet.address
-
-// Check balance
-let balance = try await wallet.getBalance()
-```
-
-## 🔐 Security Settings
-
-```swift
-// Biometric authentication
-let security = SecurityManager()
-security.enableBiometricAuth()
-
-// Secure storage
-security.enableSecureStorage()
-```
-
-## 📚 Next Steps
-
-- [Wallet Setup Guide](WalletSetup.md)
-- [DeFi Integration Guide](DeFiIntegration.md)
-- [Security Guide](SecurityGuide.md)
-- [Performance Guide](PerformanceGuide.md)
-
-## �� Help
-
-If you encounter issues:
-- [Issues](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
-- [Discussions](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/discussions)
+- Check out our [Examples](Examples/) folder
+- Read the [API Documentation](API.md)
+- Explore [Advanced Usage](AdvancedUsage.md)
