@@ -1,0 +1,3 @@
+warning: 'ios-web3-wallet-framework': Source files for target WalletUI should be located under 'Sources/WalletUI', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'ios-web3-wallet-framework': Source files for target WalletUtils should be located under 'Sources/WalletUtils', or a custom sources path can be set with the 'path' property in Package.swift
+error: 'ios-web3-wallet-framework': target 'iOSWeb3WalletFramework' has overlapping sources: /Users/muhittincamdali/Desktop/Cursor Projects/GitHub/iOS-Web3-Wallet-Framework/Sources/Web3/Web3WalletManager.swift, /Users/muhittincamdali/Desktop/Cursor Projects/GitHub/iOS-Web3-Wallet-Framework/Sources/Web3/WalletManager.swift
